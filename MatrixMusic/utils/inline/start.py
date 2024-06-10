@@ -1,4 +1,3 @@
-from pyrogram.types import InlineKeyboardButton
 
 import config
 from MatrixMusic import app
@@ -13,7 +12,7 @@ def start_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url="https://t.me/KKC8C"),
+            InlineKeyboardButton(text=_["S_B_6"], url="https://t.me/UUYUUS2"),
         ],
     ]
     return buttons
@@ -28,7 +27,7 @@ def private_panel(_):
             ),
            InlineKeyboardButton(
             text=_["S_B_5"],
-            url=f"https://t.me/y_o_v",
+            url=f"https://t.me/m_x_cc",
         )
         ],
         [
@@ -44,7 +43,7 @@ def private_panel(_):
         [
              InlineKeyboardButton(
                 text=_["S_B_9"],
-                url=f"https://t.me/cecrr",
+                url=f"https://t.me/UUYUUS2",
             ),
             InlineKeyboardButton(
                 text=_["S_B_6"],
