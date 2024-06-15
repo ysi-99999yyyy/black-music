@@ -30,7 +30,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(   
-              text=f"قنات❤️حبيبي❤️مقاطع❤️فيديوهات❤️بنات", url=f"https://t.me/UUYUUS2",)                        
+              text=f"قنات❤️حبيبي❤️مقاطع❤️فيديوهات❤️بنات", url=f"https://t.me/O_0_O_w",)                        
         ],        
     ]
 )
@@ -38,10 +38,10 @@ async def check_is_joined(message):
     try:
         userid = message.from_user.id
         user_name = message.from_user.first_name
-        status = await app.get_chat_member("UUYUUS2", userid)
+        status = await app.get_chat_member("O_0_O_w", userid)
         return True
     except Exception:
-        await message.reply_text(f'┇عزيزي: {message.from_user.mention}\n┇أشتࢪك في قناة البوت أولاً.\n┇قناة البوت: @UUYUUS2 🍓. ',reply_markup=force_btn,disable_web_page_preview=False)
+        await message.reply_text(f'┇عزيزي: {message.from_user.mention}\n┇أشتࢪك في قناة البوت أولاً.\n┇قناة البوت: @O_0_O_w 🍓. ',reply_markup=force_btn,disable_web_page_preview=False)
         return False
 
 
