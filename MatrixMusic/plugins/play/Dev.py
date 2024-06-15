@@ -71,7 +71,7 @@ async def devatari(_, query: CallbackQuery):
                                      f"<b>≭︰ايدي المجموعة ~ ⦗ {chat} ⦘ .\n</b>")
 
 
-    await query.message.reply_text(f"<b>≭︰تم إرسال استدعائك إلى مطور البوت .\n\n≭︰Black Team ~ ⦗ @UUYUUS2 ⦘ .\n≭︰Black Updates ~ ⦗ @UUYUUS2 ⦘ .\n≭︰Dev ~ ⦗ @m_x_cc ⦘ .</b>")
+    await query.message.reply_text(f"<b>≭︰تم إرسال استدعائك إلى مطور البوت .\n\n≭︰Black Team ~ ⦗ @O_0_O_w ⦘ .\n≭︰Black Updates ~ ⦗ @O_0_O_w ⦘ .\n≭︰Dev ~ ⦗ @cm_i6 ⦘ .</b>")
 
 @app.on_message(
     command(["المطور"])
@@ -79,7 +79,7 @@ async def devatari(_, query: CallbackQuery):
   
 )
 async def rsexs(client, message):
-    usr = await app.get_chat("m_x_cc")
+    usr = await app.get_chat("cm_i6")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"≭︰Dev Name ↬ ⦗ {name} ⦘\n≭︰Dev User ↬ ⦗ @{usr.username} ⦘\n≭︰Dev id ↬ ⦗ {usr.id} ⦘",  
