@@ -14,11 +14,11 @@ async def must_join_channel(bot: Client, msg: Message):
             if "https://t.me/O_0_O_w".isalpha():
                 link = "https://t.me/O_0_O_w"
             else:
-                chat_info = await bot.get_chat("UUYUUS2")
+                chat_info = await bot.get_chat("O_0_O_w")
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : https://t.me/UUYUUS2 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
+                    f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : https://t.me/O_0_O_w 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("اެختِݪاެفِـيَہِٰ 🪬♥﮼•", url=link)]
