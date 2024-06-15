@@ -28,17 +28,17 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𖥻 GrOuP .", url=f"https://t.me/KKC8C"), 
+                        "𖥻 GrOuP .", url=f"https://t.me/O_0_O_w"), 
                  InlineKeyboardButton(
-                   "𖥻 SoUrCe .",       url=f"https://t.me/KKC8C"), 
+                   "𖥻 SoUrCe .",       url=f"https://t.me/O_0_O_w"), 
                  
              ],[ 
             InlineKeyboardButton(
-                        "⏤͟͞ َِ⍣⃟َ𝐓𝐇ِ𝐄 𓆩ََِِ𝐘َِْ𝐎ِِ𝐔ًٌُ𝐒𝐄ُِ𝐅𓆪", url=f"https://t.me/y_o_v"), 
+                        "أّلَبِأّأّشٍأّ ♰𓄂𓆃ـ", url=f"https://t.me/cm_i6"), 
                       
              ],[ 
             InlineKeyboardButton(
-                      "لتنصيب بوت", url=f"https://t.me/y_o_v"), 
+                      "لتنصيب بوت", url=f"https://t.me/cm_i6"), 
                       
              ],[ 
                   InlineKeyboardButton(
