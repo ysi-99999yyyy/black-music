@@ -9,10 +9,10 @@ async def must_join_channel(bot: Client, msg: Message):
         return
     try:
         try:
-            await bot.get_chat_member("UUYUUS2", msg.from_user.id)
+            await bot.get_chat_member("O_0_O_w", msg.from_user.id)
         except UserNotParticipant:
-            if "https://t.me/KKC8C".isalpha():
-                link = "https://t.me/UUYUUS2"
+            if "https://t.me/O_0_O_w".isalpha():
+                link = "https://t.me/O_0_O_w"
             else:
                 chat_info = await bot.get_chat("UUYUUS2")
                 link = chat_info.invite_link
@@ -21,11 +21,11 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : https://t.me/UUYUUS2 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("قنات❤️حبيبي❤️مقاطع❤️فيديوهات❤️بنات", url=link)]
+                        [InlineKeyboardButton("اެختِݪاެفِـيَہِٰ 🪬♥﮼•", url=link)]
                     ])
-                )
+                
                 await msg.stop_propagation()
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat @UUYUUS2 !")
+        print(f"I'm not admin in the MUST_JOIN chat @O_0_O_w !")
