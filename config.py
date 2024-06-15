@@ -24,7 +24,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7464592789))
+OWNER_ID = int(getenv("OWNER_ID", 6317284441))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,7 +41,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BWDBA")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/O_0_O_w")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -54,8 +54,8 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 CHANNEL_NAME = getenv("CHANNEL_NAME", "• 𝐁𝐥𝐚𝐜𝐤 𝐓𝐞𝐀𝐦 •")
-CHANNEL_LINK = getenv("CHANNEL_LINK", "UUYUUS2")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWDBA")
+CHANNEL_LINK = getenv("CHANNEL_LINK", "O_0_O_w")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/O_0_O_w")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
