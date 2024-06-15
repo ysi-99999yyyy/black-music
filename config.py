@@ -4,7 +4,7 @@ from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
 
-super_sudoers = [7464592789]
+super_sudoers = [6317284441]
 
 load_dotenv()
 
