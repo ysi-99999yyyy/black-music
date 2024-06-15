@@ -34,10 +34,10 @@ async def zdatsr(client: Client, message: Message):
                         "• اوامــر المطــور •", callback_data="zzzdv"),
                 ],[ 
                     InlineKeyboardButton(
-                        "• مطور السورس •", url="https://t.me/A1RTR") 
+                        "• مطور السورس •", url="https://t.me/cm_i6") 
                 ],[
                     InlineKeyboardButton(
-                        "• سورس بلاك •", url="https://t.me/KKC8C"),
+                        "• سورس بلاك •", url="https://t.me/O_0_O_w"),
                 ],
             ]
         ),
