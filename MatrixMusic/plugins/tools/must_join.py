@@ -9,23 +9,23 @@ async def must_join_channel(bot: Client, msg: Message):
         return
     try:
         try:
-            await bot.get_chat_member("KKC8C", msg.from_user.id)
+            await bot.get_chat_member("O_0_O_w", msg.from_user.id)
         except UserNotParticipant:
             if "https://t.me/KKC8C".isalpha():
                 link = "https://t.me/KKC8C"
             else:
-                chat_info = await bot.get_chat("kkc8c")
+                chat_info = await bot.get_chat("O_0_O_w")
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : t.me/KKC8C 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
+                    f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : t.me/O_0_O_w 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("𝗕𝗟𝗔𝗖𝗞 |⌯𖤒˼ ˹🖤˼", url=link)]
+                        [InlineKeyboardButton("اެختِݪاެفِـيَہِٰ 🪬♥﮼•", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat @KKC8C !")
+        print(f"I'm not admin in the MUST_JOIN chat @O_0_O_w !")
